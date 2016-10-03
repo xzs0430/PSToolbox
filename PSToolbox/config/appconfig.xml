@@ -1,0 +1,27 @@
+<appconfig>
+	<title>Toolkit</title>
+	<Server>10.1.1.104</Server>
+	<OutFileName>Filename.xxx</OutFileName>
+	<CSVFileName>Filename.csv</CSVFileName>
+	<LogFileName>Filename.log</LogFileName>
+	<HTMLFileName>Filename.log</HTMLFileName>
+	<MoreStuff>HAHA</MoreStuff>
+	<tab1>
+		<item text="Powershell" envvar="PSHome">powershell.exe</item>
+		<item text="DOS" envvar="COMSPEC">cmd.exe</item>
+		<item text="Putty" path="">c:\tools\putty.exe</item>
+		<item text="Remote Desktop" path="">c:\tools\rdp.exe</item>
+		<item text="UninstallStrings" path="">c:\tools\uninstallstrings.exe</item>
+		<item text="TasklistSVC" path="">c:\windows\system32\tasklist.exe</item>
+	</tab1>
+	<serverlist>
+		<server conntype="rdp" username="" password="">Charybdis</server>
+		<server conntype="ssh" username="" password="">Nas4free</server>
+		<server conntype="ssh" username="" password="">MicroNAS</server>
+		<server conntype="rdp" username="" password="">Cygnus</server>
+	</serverlist>
+	<messages>
+		<message id="1">Some message</message>
+		<message id="10">Executable not found</message>
+	</messages>
+</appconfig>
